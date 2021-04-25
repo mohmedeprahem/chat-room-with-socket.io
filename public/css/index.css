@@ -1,0 +1,38 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.header {
+    height: 3rem;
+    width: 100%;
+    background-color: #252525;
+    display: block;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.left {
+    height: 91%;
+    width: 13rem;
+    background-color: #393939;
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.people li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
